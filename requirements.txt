@@ -1,0 +1,8 @@
+# requirements.txt —— 本项目的"依赖清单"(用到的外部工具包)
+# 别人(或你换台电脑)运行下面这一句,就能把这些包一次装齐:
+#     pip install -r requirements.txt
+
+openai==2.41.1                 # 调用大模型(连 DeepSeek 等)
+python-dotenv==1.2.2           # 读取 .env 配置文件(密钥放这里面)
+mcp==1.28.0                    # MCP 服务端 / 客户端(step7-9 用)
+sentence-transformers==5.6.0   # 文本转向量,RAG 检索用(step11 用)
