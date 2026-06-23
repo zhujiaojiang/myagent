@@ -157,7 +157,9 @@ async def run_mcp_client() -> None:
             population_text = population_call_result.content[0].text
             print(f"  服务端返回:{population_text}\n")
 
-            print("MCP 客户端 ↔ 服务端 全程跑通!🎉")
+            # Windows 终端可能使用 GBK 编码。为保证所有环境都能稳定打印，
+            # 这里不用箭头、emoji 等非必要特殊字符。
+            print("MCP 客户端和服务端全程跑通!")
 
 
 # ======================================================================
