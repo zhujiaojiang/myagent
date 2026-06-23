@@ -42,3 +42,6 @@
   ```
   (VS Code 里把解释器选成 `.venv` 即可点 ▶ 运行。)
 - `__pycache__/` 是 Python 自动生成的字节码缓存,可随时删,已被 `.gitignore` 忽略。
+
+## 更新记录
+- 项目已上传 GitHub,跑通 Git 日常流程(add / commit / push)。
